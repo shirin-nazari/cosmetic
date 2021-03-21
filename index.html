@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Shirin Store</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width =device-width , initial-scale =1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">     </head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <body>
+        <section id="banner">
+<img src="images/icon.png" alt="logo" class="logo">
+<div class="banner-text">
+    <h1>Shirin Store</h1>
+    <p>Introducing Cosmetics</p>
+    <div class="banner-btn">
+        <a href="#" title="find out"><span></span>Find Out</a>
+        <a href="#" title="read more"><span></span>Read More</a>
+    </div>
+</div>
+        </section>
+<div id="sideNav">
+    <nav>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">TESTMONIALS</a></li>
+            <li><a href="#">MEET US</a></li>
+        </ul>
+    </nav>
+    <div id="menuBtn">
+        <img src="images/MENU.png" alt="menu">
+    </div>
+</div>
+<!-- features -->
+<section id="feature">
+<div class="title-text">
+    <p>FEATURES</p>
+    <h1>Why Choose Us</h1>
+</div>
+<div class="feature-box">
+    <div class="feature">
+<h1>Experienced staff</h1>
+    </div>
+    <div class="feature-img">
+      <img src="images/mercup.jpg" alt="lip">
+            </div>
+</div>
+</section>
+
+
+
+
+<script>
+    var menuBtn=document.getElementById("menuBtn")
+    var sideNav=document.getElementById("sideNav")
+    var menu=document.getElementById("menu")
+    sideNav.style.right="-250px";
+    menuBtn.onclick=function(){
+        if(sideNav.style.right=="-250px")
+        {
+            sideNav.style.right="0";
+            menu.src= "images/close.png";
+        }
+        else{
+            sideNav.style.right="-250px";
+            menu.src ="images/MENU.png";
+        }
+    }
+</script>
+    </body>
+</html>
