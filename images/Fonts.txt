@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Montserrat
+Author: Julieta Ulanovsky
+Url: http://www.fontsquirrel.com/fonts/montserrat
+
+Font: Alice
+Author: Cyreal
+Url: https://www.fontsquirrel.com/fonts/alice
